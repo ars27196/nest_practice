@@ -33,7 +33,7 @@ export class UsersService {
     }
 
   async remove(id: number) {
-    await this.userRepo.delete(id);
+    await this.userRepo.delete(id); 
     return `This action removes a #${id} user`;
   }
 }
